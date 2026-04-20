@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream - Discover Movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="nav-bar">
+        <div class="nav-left">
+            <h1 class="brand">NETFLIX</h1>
+            <nav class="links">
+                <a href="#">Home</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">New & Popular</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="spotlight" id="hero">
+        <div class="spotlight-content">
+            <h1 id="hero-title">Discover Something New</h1>
+            <p id="hero-description">Explore our curated collection of cinema from around the globe.</p>
+            <div class="spotlight-actions">
+                <button class="play-btn">Play</button>
+                <button class="more-btn">More Info</button>
+            </div>
+        </div>
+        <div class="hero-vignette"></div>
+    </section>
+
+    <main class="gallery">
+        <div class="row">
+            <h2 class="row-header">Trending Now</h2>
+            <div class="poster-container" id="api-movies">
+                </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
